@@ -2,7 +2,6 @@ FROM alpine:3.1
 MAINTAINER Tyler J. Skluzacek <skluzacek@uchicago.edu>
 
 # Update 
-RUN apt-get update
 RUN apk add --update python py-pip
 RUN pip install Flask
 
